@@ -25,7 +25,9 @@ https://www.python.org/downloads/release/python-3100/
 각 컴퓨터에 맞는 버전을 설치해주세요
 
 ### 2. 필요한 패키지 설치
-
+```bash
+python -m pip install --upgrade pip
+```
 ```bash
 pip install -r requirements.txt
 ```
