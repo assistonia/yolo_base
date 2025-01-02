@@ -2,6 +2,20 @@
 
 이 프로젝트는 YOLOv8을 사용하여 웹캠에서 실시간으로 객체를 감지하는 프로그램입니다.
 
+## 프로젝트 다운로드
+
+1. 작업 폴더 생성 및 이동
+   ```bash
+   mkdir yolo_project
+   cd yolo_project
+   ```
+
+2. GitHub에서 프로젝트 클론
+   ```bash
+   git clone https://github.com/assistonia/yolo_base.git
+   cd yolo_base
+   ```
+
 ## 설치 방법
 
 ### 1. Python 3.10 설치 
@@ -24,7 +38,6 @@ pip install -r requirements.txt
    ```bash
    python yolo.py
    ```
-
 
 ultralytics 패키지에 대해 자세히 알고싶다면
 아래 사이트에서 참고하세요
